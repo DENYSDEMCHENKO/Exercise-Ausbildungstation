@@ -1,0 +1,9 @@
+from asyncio import sleep
+
+import psutil
+
+while True:
+  cpu_percent = psutil.cpu_percent(interval=1)
+  ram_percent = psutil.virtual_memory().percent
+  print(f"CPU Usage: {cpu_percent}% | RAM Usage: {ram_percent}%")
+  sleep(10)
