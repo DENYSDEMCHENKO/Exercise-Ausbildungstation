@@ -1,2 +1,1 @@
 # Exercise-Ausbildungstation
-# Exercise-Ausbildungstation

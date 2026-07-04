@@ -1,0 +1,117 @@
+# HELP top_hosts_requests_total Requests per host (top N).
+# TYPE top_hosts_requests_total gauge
+top_hosts_requests_total{host="piweba3y.prodigy.com"} 17571
+top_hosts_requests_total{host="piweba4y.prodigy.com"} 11591
+top_hosts_requests_total{host="piweba1y.prodigy.com"} 9868
+top_hosts_requests_total{host="alyssa.prodigy.com"} 7852
+top_hosts_requests_total{host="siltb10.orl.mmc.com"} 7573
+top_hosts_requests_total{host="piweba2y.prodigy.com"} 5922
+top_hosts_requests_total{host="edams.ksc.nasa.gov"} 5434
+top_hosts_requests_total{host="163.206.89.4"} 4906
+top_hosts_requests_total{host="news.ti.com"} 4863
+top_hosts_requests_total{host="disarray.demon.co.uk"} 4353
+
+# HELP http_requests_by_day_total HTTP requests by status category and day.
+# TYPE http_requests_by_day_total counter
+http_requests_by_day_total{day="01/Jul/1995",code="2xx"} 58033
+http_requests_by_day_total{day="01/Jul/1995",code="3xx"} 6365
+http_requests_by_day_total{day="01/Jul/1995",code="4xx"} 316
+http_requests_by_day_total{day="02/Jul/1995",code="2xx"} 54492
+http_requests_by_day_total{day="02/Jul/1995",code="3xx"} 5477
+http_requests_by_day_total{day="02/Jul/1995",code="4xx"} 296
+http_requests_by_day_total{day="03/Jul/1995",code="2xx"} 81351
+http_requests_by_day_total{day="03/Jul/1995",code="3xx"} 7704
+http_requests_by_day_total{day="03/Jul/1995",code="4xx"} 472
+http_requests_by_day_total{day="03/Jul/1995",code="5xx"} 53
+http_requests_by_day_total{day="04/Jul/1995",code="2xx"} 63069
+http_requests_by_day_total{day="04/Jul/1995",code="3xx"} 7020
+http_requests_by_day_total{day="04/Jul/1995",code="4xx"} 363
+http_requests_by_day_total{day="05/Jul/1995",code="2xx"} 85080
+http_requests_by_day_total{day="05/Jul/1995",code="3xx"} 8995
+http_requests_by_day_total{day="05/Jul/1995",code="4xx"} 499
+http_requests_by_day_total{day="05/Jul/1995",code="5xx"} 1
+http_requests_by_day_total{day="06/Jul/1995",code="2xx"} 91643
+http_requests_by_day_total{day="06/Jul/1995",code="3xx"} 8672
+http_requests_by_day_total{day="06/Jul/1995",code="4xx"} 645
+http_requests_by_day_total{day="07/Jul/1995",code="2xx"} 79024
+http_requests_by_day_total{day="07/Jul/1995",code="3xx"} 7637
+http_requests_by_day_total{day="07/Jul/1995",code="4xx"} 570
+http_requests_by_day_total{day="07/Jul/1995",code="5xx"} 1
+http_requests_by_day_total{day="08/Jul/1995",code="2xx"} 35663
+http_requests_by_day_total{day="08/Jul/1995",code="3xx"} 2902
+http_requests_by_day_total{day="08/Jul/1995",code="4xx"} 302
+http_requests_by_day_total{day="09/Jul/1995",code="2xx"} 32101
+http_requests_by_day_total{day="09/Jul/1995",code="3xx"} 2823
+http_requests_by_day_total{day="09/Jul/1995",code="4xx"} 348
+http_requests_by_day_total{day="10/Jul/1995",code="2xx"} 65970
+http_requests_by_day_total{day="10/Jul/1995",code="3xx"} 6490
+http_requests_by_day_total{day="10/Jul/1995",code="4xx"} 399
+http_requests_by_day_total{day="10/Jul/1995",code="5xx"} 1
+http_requests_by_day_total{day="11/Jul/1995",code="2xx"} 72006
+http_requests_by_day_total{day="11/Jul/1995",code="3xx"} 7930
+http_requests_by_day_total{day="11/Jul/1995",code="4xx"} 471
+http_requests_by_day_total{day="12/Jul/1995",code="2xx"} 80877
+http_requests_by_day_total{day="12/Jul/1995",code="3xx"} 11185
+http_requests_by_day_total{day="12/Jul/1995",code="4xx"} 473
+http_requests_by_day_total{day="13/Jul/1995",code="2xx"} 114430
+http_requests_by_day_total{day="13/Jul/1995",code="3xx"} 19239
+http_requests_by_day_total{day="13/Jul/1995",code="4xx"} 531
+http_requests_by_day_total{day="13/Jul/1995",code="5xx"} 2
+http_requests_by_day_total{day="14/Jul/1995",code="2xx"} 75346
+http_requests_by_day_total{day="14/Jul/1995",code="3xx"} 8341
+http_requests_by_day_total{day="14/Jul/1995",code="4xx"} 414
+http_requests_by_day_total{day="15/Jul/1995",code="2xx"} 41168
+http_requests_by_day_total{day="15/Jul/1995",code="3xx"} 4110
+http_requests_by_day_total{day="15/Jul/1995",code="4xx"} 254
+http_requests_by_day_total{day="16/Jul/1995",code="2xx"} 43738
+http_requests_by_day_total{day="16/Jul/1995",code="3xx"} 3859
+http_requests_by_day_total{day="16/Jul/1995",code="4xx"} 257
+http_requests_by_day_total{day="17/Jul/1995",code="2xx"} 67745
+http_requests_by_day_total{day="17/Jul/1995",code="3xx"} 6828
+http_requests_by_day_total{day="17/Jul/1995",code="4xx"} 407
+http_requests_by_day_total{day="17/Jul/1995",code="5xx"} 1
+http_requests_by_day_total{day="18/Jul/1995",code="2xx"} 58045
+http_requests_by_day_total{day="18/Jul/1995",code="3xx"} 5753
+http_requests_by_day_total{day="18/Jul/1995",code="4xx"} 473
+http_requests_by_day_total{day="18/Jul/1995",code="5xx"} 10
+http_requests_by_day_total{day="19/Jul/1995",code="2xx"} 65468
+http_requests_by_day_total{day="19/Jul/1995",code="3xx"} 6629
+http_requests_by_day_total{day="19/Jul/1995",code="4xx"} 640
+http_requests_by_day_total{day="20/Jul/1995",code="2xx"} 60156
+http_requests_by_day_total{day="20/Jul/1995",code="3xx"} 6006
+http_requests_by_day_total{day="20/Jul/1995",code="4xx"} 431
+http_requests_by_day_total{day="21/Jul/1995",code="2xx"} 58339
+http_requests_by_day_total{day="21/Jul/1995",code="3xx"} 5956
+http_requests_by_day_total{day="21/Jul/1995",code="4xx"} 332
+http_requests_by_day_total{day="22/Jul/1995",code="2xx"} 31903
+http_requests_by_day_total{day="22/Jul/1995",code="3xx"} 3170
+http_requests_by_day_total{day="22/Jul/1995",code="4xx"} 193
+http_requests_by_day_total{day="23/Jul/1995",code="2xx"} 36125
+http_requests_by_day_total{day="23/Jul/1995",code="3xx"} 2841
+http_requests_by_day_total{day="23/Jul/1995",code="4xx"} 233
+http_requests_by_day_total{day="24/Jul/1995",code="2xx"} 58259
+http_requests_by_day_total{day="24/Jul/1995",code="3xx"} 5665
+http_requests_by_day_total{day="24/Jul/1995",code="4xx"} 330
+http_requests_by_day_total{day="24/Jul/1995",code="5xx"} 5
+http_requests_by_day_total{day="25/Jul/1995",code="2xx"} 57102
+http_requests_by_day_total{day="25/Jul/1995",code="3xx"} 5129
+http_requests_by_day_total{day="25/Jul/1995",code="4xx"} 468
+http_requests_by_day_total{day="26/Jul/1995",code="2xx"} 53485
+http_requests_by_day_total{day="26/Jul/1995",code="3xx"} 5024
+http_requests_by_day_total{day="26/Jul/1995",code="4xx"} 339
+http_requests_by_day_total{day="26/Jul/1995",code="5xx"} 1
+http_requests_by_day_total{day="27/Jul/1995",code="2xx"} 56107
+http_requests_by_day_total{day="27/Jul/1995",code="3xx"} 5232
+http_requests_by_day_total{day="27/Jul/1995",code="4xx"} 340
+http_requests_by_day_total{day="27/Jul/1995",code="5xx"} 1
+http_requests_by_day_total{day="28/Jul/1995",code="2xx"} 24809
+http_requests_by_day_total{day="28/Jul/1995",code="3xx"} 2218
+http_requests_by_day_total{day="28/Jul/1995",code="4xx"} 94
+
+# HELP host_cpu_usage_percent Current CPU usage percent.
+# TYPE host_cpu_usage_percent gauge
+host_cpu_usage_percent 4.4
+
+# HELP host_ram_usage_percent Current RAM usage percent.
+# TYPE host_ram_usage_percent gauge
+host_ram_usage_percent 16.5
