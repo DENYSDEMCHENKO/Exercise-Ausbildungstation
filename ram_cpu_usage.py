@@ -1,5 +1,6 @@
 import psutil
 
+
 def get_system_metrics():
     return {
         "cpu_percent": psutil.cpu_percent(interval=1),

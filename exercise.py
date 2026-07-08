@@ -6,14 +6,17 @@ LOG_PATTERN = re.compile(
     r'"(?P<request>[^"]*)" (?P<status>\d+) (?P<bytes>\S+)'
 )
 
+
 def parse_line(line):
     match = LOG_PATTERN.match(line)
     if not match:
         return None
     return match.groupdict()
 
+
 def status_to_category(status):
     return f"{status[0]}xx"
+
 
 def parse_logfile(path):
     host_counter = Counter()
@@ -32,3 +35,9 @@ def parse_logfile(path):
     return host_counter, status_by_day
 
 
+if __name__ == "__main__":
+    host_counter, status_by_day = parse_logfile("logs.txt")
+    print("Top 10 Hosts/IPs by total requests")
+    print("-" * 35)
+    for host, count in host_counter.most_common(10):
+        print(f"{host:20} {count}")
